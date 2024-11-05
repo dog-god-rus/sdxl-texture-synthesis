@@ -8,6 +8,6 @@ This whole codebase is utterly terrible and doesn't represent the way I write co
 
 Anyways, mainTextureGen.py is the thing that generates textures. Only the txt2txt2img mode works, where you enter a prompt that then gets parsed by an LLM and turned into multiple prompts for all the different map types, and then those textures get generated.
 
-gpt.py is the script I used to label the texture data. It uses an LLM to turn filenames into texture descriptions. It's not terribly useful considering the sheer inefficiency of it all and the existance of models better than the original mistral 7b (dec-may 2024 my beloved), but it does provide some extra info on how the model was trained. I guess.
+gpt.py is the script I used to label the texture data. It uses an LLM to turn filenames into texture descriptions. It's not terribly useful considering the sheer inefficiency of it all and the existance of models better than the original mistral 7b (sep-dec 2024 my beloved), but it does provide some extra info on how the model was trained. I guess.
 
 Have fun!
